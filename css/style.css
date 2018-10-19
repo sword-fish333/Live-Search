@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Lora');
+
+#main_title{
+	font-family: 'Bitter', serif;
+	font-style: italic;
+	text-align: center;
+	color: 	#2E8B57;
+	font-weight: bolder;
+}
+section{
+	margin-top: 0px;
+}
+.parallax { 
+	margin-top: 0px;
+    /* The image used */
+    background-image: url("../images/poster.png");
+
+    /* Set a specific height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#label{
+	font-family: 'Lora', serif;
+	color: 	#008080;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 22px;
+	font-style: italic;
+}
+
+#info{
+	font-family: 'Lora', serif;
+	color: 	#008080;
+	font-weight: bold;
+	
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+
+.bio{
+	font-family: 'Lora', serif;
+	color: 	black;
+	font-weight: bold;
+	width: 70%;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+
+.name{
+	font-family: 'Lora', serif;
+	color: 	black;
+	font-weight: bolder;
+	font-size: 22px;
+	text-decoration: underline;
+
+}
+
+ul li{
+	width: 70%;
+	padding: 30px;
+	list-style-type:none;
+	border-radius: 40px;
+	border:2px solid 	#2E8B57;
+	margin-top: 20px;
+	background: rgba(222, 35, 73, 0.6);
+	-webkit-animation:anime 1s;
+	-moz-animation:anime 1s;
+	-o-animation:anime 1s;
+	animation:anime 1s;
+transition: height 0.3s ease-out;
+	min-height: 110px;
+	height: 250px;
+	overflow:hidden;
+}
+
+section{
+	margin-bottom: 50px;
+}
+
+ul li:nth-child(odd){
+	background: rgba(173, 230, 233, 0.6);
+}
+
+ul li:hover{
+	background: rgba(222, 35, 73, 0.8);
+	
+	height: 450px;
+
+}
+
+ul li:nth-child(odd):hover{
+	background: rgba(173, 230, 233, 0.8);
+}
+
+@-moz-keyframes anime{
+	0%{opacity:0.3;}
+	100%{opacity:1.0;}
+}
+
+@-webkit-keyframes anime{
+	0%{opacity:0.3;}
+	100%{opacity:1.0;}
+}
+
+@-o-keyframes anime{
+	0%{opacity:0.3;}
+	100%{opacity:1.0;}
+}
